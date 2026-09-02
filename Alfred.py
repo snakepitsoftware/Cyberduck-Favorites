@@ -115,7 +115,7 @@ class Handler:
 		max_results -- How many results should be in this string? (Default: None - No limitation)
 
 		"""
-		print self.to_xml(max_results)
+		print (self.to_xml(max_results))
 
 class Item:
 	def __init__(self, title="", subtitle="", uid=None, arg="", icon=None):
